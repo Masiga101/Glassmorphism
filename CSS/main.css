@@ -368,8 +368,6 @@
       }
 
       main .stats .card {
-        background: -webkit-gradient(linear, left top, right top, from(rgba(240, 240, 240, 0.6)), to(white));
-        background: linear-gradient(to right, rgba(240, 240, 240, 0.6), white);
         height: 15rem;
         flex-direction: column;
         width: 100%;
@@ -377,6 +375,10 @@
         margin-top: 2rem;
       }
       
+      main .stats .card img {
+        margin: auto;
+        width: auto;
+      }
   }
   
   /*# sourceMappingURL=main.css.map */
