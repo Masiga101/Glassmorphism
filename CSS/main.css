@@ -314,7 +314,7 @@
   
   @media only screen and (max-width:  1000px) {
       main{
-        width: 90%;
+        width: 95%;
         height: auto;
         flex-direction: column;
       }
@@ -365,11 +365,15 @@
         width: 100%;
       } */
 
-      /* .card{
-        height: 20%;
+      main .stats .card {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(240, 240, 240, 0.6)), to(white));
+        background: linear-gradient(to right, rgba(240, 240, 240, 0.6), white);
+        height: 10rem;
         width: 100%;
-        margin-top: 1rem;
-      } */
+        overflow: hidden;
+        margin-top: 2rem;
+      }
+      
   }
   
   /*# sourceMappingURL=main.css.map */
