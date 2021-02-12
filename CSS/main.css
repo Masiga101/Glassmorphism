@@ -322,14 +322,25 @@
       body{
         background: pink;
       }
+
       .stats{
         justify-content: center;
        
       }
 
+      .top{
+        align-items: center;
+        width: 100%;
+      }
+
+      .top input{
+        background: blue;
+        width: 10rem;
+      }
+
       .card{
         height: 20%;
-        width: 500%;
+        width: 100%;
         margin-top: 1rem;
       }
   }
