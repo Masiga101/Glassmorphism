@@ -354,8 +354,8 @@ body::after{
 
       
   .balls:nth-child(1) {
-    bottom: -67rem;
-    right: 40rem;
+    top: 95rem;
+    left: .1rem;
   }
 
       main{
