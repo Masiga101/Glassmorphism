@@ -317,11 +317,13 @@
         width: 95%;
         height: auto;
         flex-direction: column;
+        margin-top: 2rem;
       }
       
 
       .dashboard{
         padding-bottom: 2rem;
+       
       }
 
       main .dashboard .profile h2 {
@@ -368,7 +370,7 @@
       main .stats .card {
         background: -webkit-gradient(linear, left top, right top, from(rgba(240, 240, 240, 0.6)), to(white));
         background: linear-gradient(to right, rgba(240, 240, 240, 0.6), white);
-        height: 10rem;
+        height: 6rem;
         width: 100%;
         overflow: hidden;
         margin-top: 2rem;
