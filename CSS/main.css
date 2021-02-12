@@ -5,6 +5,17 @@
     padding: 0;
   }
   
+body::after{
+  content: " By  Masiga Allan";
+  position: absolute;
+  bottom: 1vh;
+  left: 40rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgba(245, 226, 226, 0.5);
+
+}
+
   body {
     background: #60b660;
     height: 100vh;
@@ -19,7 +30,6 @@
             align-items: center;
             overflow-x: hidden;
             padding: 0 1rem;
-            /* flex-direction: column; */
   }
   
   .balls {
@@ -314,17 +324,23 @@
     margin-right: .5rem;
   }
   
-  footer{
-    letter-spacing: 2;
-    font-weight: 700;
-    color: rgba(245, 226, 226, 0.5);
-    padding: 1rem 0;
-  }
 
 
   @media only screen and (max-width:  1000px) {
 
-      
+     
+body::after{
+  content: " By  Masiga Allan";
+  position: absolute;
+  bottom: -66rem;
+  left: 10rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgba(245, 226, 226, 0.5);
+
+}  
+
+
       .balls:nth-child(2) {
         top: .5rem;
         right: -6rem;
