@@ -314,7 +314,14 @@
     margin-right: .5rem;
   }
   
-  
+  footer{
+    letter-spacing: 2;
+    font-weight: 700;
+    color: rgba(245, 226, 226, 0.5);
+    padding: 1rem 0;
+  }
+
+
   @media only screen and (max-width:  1000px) {
 
       
