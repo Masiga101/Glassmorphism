@@ -313,6 +313,19 @@
   
   
   @media only screen and (max-width:  1000px) {
+
+      
+      .balls:nth-child(2) {
+        top: .5rem;
+        right: -6rem;
+      }
+
+      
+  .balls:nth-child(1) {
+    bottom: -50rem;
+    left: -2rem;
+  }
+
       main{
         width: 95%;
         height: auto;
@@ -362,15 +375,14 @@
         width: 100%;
       }
 
-      .main .stats.top input{
-        background: blue;
-        width: 100%;
+      main .stats .top input {
+        width: 50%;
       }
-
+      
       main .stats .card {
         height: 15rem;
         flex-direction: column;
-        width: 100%;
+        width: auto;
         overflow: hidden;
         margin-top: 2rem;
       }
@@ -393,7 +405,6 @@
 
       main .stats .card .percentage{
        text-align: center;
-       width: 100%;
        margin-top: .5rem;
       }
   }
