@@ -379,6 +379,23 @@
         margin: auto;
         width: auto;
       }
+
+      main .stats .card .details{
+        width: 60%;
+        margin: auto;
+        margin-top: .7rem;
+        text-align: center;
+      }
+
+      main .stats .card .details p{
+        margin-bottom: .5rem;
+      }
+
+      main .stats .card .percentage{
+       text-align: center;
+       width: 100%;
+       margin-top: .5rem;
+      }
   }
   
   /*# sourceMappingURL=main.css.map */
